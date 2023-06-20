@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Michael Coyne</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <ul class="navbarul">
+    <li><a href="#">Home</a></li>
+    <li><a href="#contactcard">Contact</a></li>
+  </ul>
+  <div class="primarycard">
+    <h1 class="name">Michael Coyne</h1>
+    <h3 class="jobtitle">Software engineer</h2>
+  </div>
+  <div class="spacer"></div>
+  <div class="contactcontainer">
+    <span id="contactcard"></span>
+    <div class="contactcard">
+      <h2>Contact me:</h2>
+      <form class="contactform" action="https://formsubmit.co/252e8cd50bba4114e67423f3318d1c18" method="POST">
+        <div class="nameandemail">
+          <input type="text" placeholder="Full Name" name="name" required>
+          <input type="email" placeholder="Email" name="email" required>
+        </div>
+        <textarea placeholder="Your Message" class="message"
+          name="message" rows="10" required=""></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

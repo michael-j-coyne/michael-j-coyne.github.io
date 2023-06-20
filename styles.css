@@ -1,0 +1,132 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 0 2em 0;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #202020;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+h2 {
+  margin-block-start: 0;
+  margin-block-end: 0.5em;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+input {
+  border: none;
+  border-radius: 4px;
+}
+
+textarea {
+  border: none;
+  border-radius: 4px;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+#contactcard {
+  position: absolute;
+}
+
+.contactcard {
+  background-color: #303030;
+  padding: 1em;
+  margin: 1em;
+  height: 60vh;
+  width: 100%;
+  max-height: 350px;
+  max-width: min(700px, 80vw);
+}
+
+.contactcontainer {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primarycard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.message {
+  margin: 0.5em 0 0.5em 0;
+  height: 70%;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.name {
+  font-size: 4.5em;
+  margin-block-end: 0.2em;
+}
+
+.nameandemail {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  margin-bottom: 0.5em;
+}
+
+.nameandemail > input {
+  font-family: "Ubuntu Mono", monospace;
+  width: 45%;
+}
+
+.jobtitle {
+  font-size: 1.75em;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.navbarul {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0 0 0 1em;
+  background-color: #303030;
+  height: 3em;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #555555;
+}
+
+.navbarul > li > a {
+  color: white;
+  padding: 0.5em;
+  font-size: 1em;
+}
